@@ -1,0 +1,75 @@
+.menu{
+    size: 30px;
+    font-family: Tahoma;
+    text-align: center;
+}
+
+html{
+    background-color: hsl(145, 31%, 59%)
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:hsl(145, 40%, 36%)
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display:block;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color:hsl(150, 40%, 60%);
+
+}
+
+.active{
+    background-color:hsl(149, 43%, 74%);
+}
+
+
+@font-face { font-family: Broisther; src: url('Broisther.otf') }
+
+h1{
+    font-family: Broisther, sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 50px;
+    text-decoration: underline;
+    color: hsl(145, 40%, 36%);
+    text-align: center
+}
+
+.pfp{
+    display:flexbox;
+    border-radius: 20%;
+    max-width: 30%;
+    height: auto;
+    padding:20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.homeimg{
+    display: grid;
+    height: 100%;
+}
+    
+.center-fit {
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+}
